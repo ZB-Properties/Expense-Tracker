@@ -1,0 +1,38 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from '../utils/axiosInstance';
+
+
+const Register = () => {
+  const [form, setForm] = useState({ name: '', email: '', password: '' });
+  const navigate = useNavigate();
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post('/auth/register', form);
+      localStorage.setItem('token', res.data.token); 
+      navigate('/dashboard'); 
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  return (
+    <div className="user-container">
+      <form onSubmit={handleSubmit} className="user-form">
+        <h2>Register</h2>
+        <input type="text" name="name" placeholder="Name" className="input" onChange={handleChange} required />
+        <input type="email" name="email" placeholder="Email" className="input" onChange={handleChange} required />
+        <input type="password" name="password" placeholder="Password" className="input" onChange={handleChange} required />
+        <button type="submit" className="user-btn">Sign Up</button>
+      </form>
+    </div>
+  );
+};
+
+export default Register;
