@@ -10,7 +10,10 @@ const analyticsRoute = require('./routes/analyticsRoute');
 
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  { origin: 'https://expense-tracker-fbro.vercel.app/', 
+    credentials: true }
+));
 app.use(express.json());
 
 app.use('/api/auth', userRoute);
