@@ -8,12 +8,25 @@ const transactionRoute = require('./routes/transactionRoute');
 const budgetRoute = require('./routes/budgetRoute');
 const analyticsRoute = require('./routes/analyticsRoute');
 
-
 const app = express();
-app.use(cors(
-  { origin: 'https://expense-tracker-fbro.vercel.app/', 
-    credentials: true }
-));
+
+const allowedOrigins = [
+  'https://expense-tracker-fbro.vercel.app',
+  'http://localhost:5173' 
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
+
+
 app.use(express.json());
 
 app.use('/api/auth', userRoute);
