@@ -9,30 +9,19 @@ const budgetRoute = require('./routes/budgetRoute');
 const analyticsRoute = require('./routes/analyticsRoute');
 
 const app = express();
-
-const allowedOrigins = [
-  'https://expense-tracker-fbro.vercel.app',
-  'http://localhost:5173' 
-];
+app.use(express.json());
 
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+  origin: 'https://expense-tracker-fbro.vercel.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
 
 
-app.use(express.json());
-
-app.use('/api/auth', userRoute);
-app.use('/api/transactions', transactionRoute);
-app.use('/api/budgets', budgetRoute);
-app.use('/api/analytics', analyticsRoute);
+app.use('/auth', userRoute);
+app.use('/transactions', transactionRoute);
+app.use('/budgets', budgetRoute);
+app.use('/analytics', analyticsRoute);
 
 
 const PORT = process.env.PORT || 2800;
