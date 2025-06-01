@@ -11,10 +11,17 @@ const analyticsRoute = require('./routes/analyticsRoute');
 const app = express();
 app.use(express.json());
 
+
+const allowedOrigins = ['https://expense-tracker-fbro.vercel.app'];
+
 app.use(cors({
-  origin: 'https://expense-tracker-fbro.vercel.app', 
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
 }));
 
 
@@ -25,6 +32,7 @@ app.use('/analytics', analyticsRoute);
 
 
 const PORT = process.env.PORT || 2800;
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
