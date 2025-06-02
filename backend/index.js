@@ -25,10 +25,10 @@ app.use(cors({
 }));
 
 
-app.use('/auth', userRoute);
-app.use('/transactions', transactionRoute);
-app.use('/budgets', budgetRoute);
-app.use('/analytics', analyticsRoute);
+app.use('/api/auth', userRoute);
+app.use('/api/transactions', transactionRoute);
+app.use('/api/budgets', budgetRoute);
+app.use('/api/analytics', analyticsRoute);
 
 
 const PORT = process.env.PORT || 2800;
