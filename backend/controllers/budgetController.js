@@ -1,7 +1,6 @@
 const pool = require('../model/db');
 
 
-// Add new budget
 const addBudget = async (req, res) => {
   const { category, amount } = req.body;
   const userId = req.userId;
@@ -19,7 +18,7 @@ const addBudget = async (req, res) => {
   }
 };
 
-// Get all budgets
+
 const getBudgets = async (req, res) => {
   const userId = req.userId;
   try {
@@ -33,7 +32,7 @@ const getBudgets = async (req, res) => {
   }
 };
 
-// Update a budget
+
 const updateBudget = async (req, res) => {
   const { category, amount } = req.body;
   const userId = req.userId;
@@ -58,7 +57,7 @@ const updateBudget = async (req, res) => {
   }
 };
 
-// Delete a budget
+
 const deleteBudget = async (req, res) => {
   const userId = req.userId;
   const budgetId = req.params.id;

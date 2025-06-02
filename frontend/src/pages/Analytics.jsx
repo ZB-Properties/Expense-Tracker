@@ -38,7 +38,7 @@ const Analytics = () => {
 
         const ctx = canvasRef.current.getContext('2d');
         chartInstance.current = new Chart(ctx, {
-          type: 'pie',
+          type: 'doughnut',
           data: {
             labels: ['Income', 'Expenses'],
             datasets: [
@@ -138,6 +138,7 @@ const Analytics = () => {
               onChange={(e) => setEditValue(e.target.value)}
               className="analytics-input"
             />
+            
             <div className="modal-actions">
               <button className="modal-btn" onClick={handleSave}>Save</button>
               <button className="modal-btn btn-delete" onClick={handleDelete}>Delete</button>
