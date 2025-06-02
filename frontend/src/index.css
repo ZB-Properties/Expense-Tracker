@@ -47,6 +47,22 @@ body {
   color: #000;
 }
 
+.user-container p {
+  color: #000;
+  font-size: 17px;
+  margin-left: 130px;
+}
+.user-login {
+  text-align: center;
+  margin-top: 16px;
+  color: #e52c4b;
+  font-size: 20px;
+  text-decoration: none;
+}
+.user-login:hover {
+  color: rgb(255, 128, 128);
+}
+
 
 .your-pages {
   padding: 25px;
