@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Chart from 'chart.js/auto';
 import { useNavigate } from 'react-router-dom';
 import axios from '../utils/axiosInstance';
+import './trans-budget.css'
 
 
 const Analytics = () => {
