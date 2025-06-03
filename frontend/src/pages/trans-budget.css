@@ -377,19 +377,19 @@
 }
 }
 
-@media screen and (min-width: 500px) and (max-width:649px) {
+@media screen and (min-width: 550px) and (max-width:649px) {
 .budget-form {
   display: flex;
   gap: 15px;
   margin-bottom: 18px;
-  margin-left: 65px;
+  margin-left: 45px;
 }
 .budget-form input,
 .budget-form select {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 95px;
+  width: 65px;
 }
 .page-container { 
   padding: 26px;
@@ -498,14 +498,14 @@
   display: flex;
   gap: 14px;
   margin-bottom: 18px;
-  margin-left: 55px;
+  margin-left: 35px;
 }
 .budget-form input,
 .budget-form select {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 80px;
+  width: 50px;
 }
 .page-container { 
   padding: 24px;
