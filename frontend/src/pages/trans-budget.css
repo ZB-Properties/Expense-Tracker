@@ -4,12 +4,17 @@
   margin-bottom: 18px;
   margin-left: 100px;
 }
-.budget-form input,
-.budget-form select {
+.budget-form input{
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 125px;
+}
+.budget-select{
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 135px;
 }
 .page-container { 
   padding: 30px;
@@ -167,12 +172,17 @@
   margin-bottom: 18px;
   margin-left: 90px;
 }
-.budget-form input,
-.budget-form select {
+.budget-form input {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 115px;
+}
+.budget-select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 125px;
 }
 .page-container { 
   padding: 28px;
@@ -298,12 +308,17 @@
   margin-bottom: 18px;
   margin-left: 80px;
 }
-.budget-form input,
-.budget-form select {
+.budget-form input {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 105px;
+}
+.budget-select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 115px;
 }
 .page-container { 
   padding: 26px;
@@ -429,12 +444,18 @@
   margin-bottom: 18px;
   margin-left: 45px;
 }
-.budget-form input,
-.budget-form select {
+.budget-form input {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 65px;
+  font-size: 12px;
+}
+.budget-select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80px;
   font-size: 12px;
 }
 .page-container { 
@@ -562,12 +583,18 @@
   margin-bottom: 18px;
   margin-left: 35px;
 }
-.budget-form input,
-.budget-form select {
+.budget-form input{
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 45px;
+  font-size: 11px;
+}
+.budget-select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 70px;
   font-size: 11px;
 }
 .page-container { 
@@ -696,12 +723,18 @@
   margin-bottom: 18px;
   margin-left: 15px;
 }
-.budget-form input,
-.budget-form select {
+.budget-form input {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 35px;
+  width: 55px;
+  font-size: 10px;
+}
+.budget-select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 75px;
   font-size: 10px;
 }
 .page-container { 
@@ -779,7 +812,7 @@
   border-radius: 4px;
 }
 .modal-edit1 {
-  width: 92%;
+  width: 96%;
   padding: 10px;
   margin-top: 16px;
   border: 1px solid #ccc;

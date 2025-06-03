@@ -99,6 +99,7 @@ const Budget = () => {
         <select
           value={newBudget.period}
           onChange={(e) => setNewBudget({ ...newBudget, period: e.target.value })}
+          className='budget-select'
         >
           <option value="Monthly">Monthly</option>
           <option value="Weekly">Weekly</option>
