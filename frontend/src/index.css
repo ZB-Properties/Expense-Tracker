@@ -232,7 +232,7 @@ canvas {
 @media screen and (min-width: 350px) and (max-width:449px) {
  .dashboard-container {
   max-width: 280px;
-  margin: 26px auto;
+  margin-top: 50px;
   padding: 17px;
   background: white;
   border-radius: 12px;

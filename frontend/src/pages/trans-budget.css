@@ -123,6 +123,14 @@
   width: 70%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+.modal-b {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 70%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
 .modal-input {
   width: 80%;
   padding: 10px;
@@ -132,7 +140,7 @@
   font-size: 15px;
 }
 .modal-select {
-  width: 86%;
+  width: 89%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -189,7 +197,7 @@
   gap: 14px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 25px;
-  margin-left: 85px;
+  margin-left: 80px;
 }
 .card {
   background: #fff;
@@ -252,6 +260,14 @@
   width: 67%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+.modal-b {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 380px;
+  width: 67%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
 .modal-input {
   width: 80%;
   padding: 10px;
@@ -261,7 +277,7 @@
   font-size: 15px;
 }
 .modal-select {
-  width: 86%;
+  width: 89%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -372,7 +388,15 @@
   padding: 30px;
   border-radius: 8px;
   max-width: 380px;
-  width: 67%;
+  width: 65%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-b {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 380px;
+  width: 64%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 .modal-input {
@@ -384,7 +408,7 @@
   font-size: 15px;
 }
 .modal-select {
-  width: 86%;
+  width: 89%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -436,7 +460,7 @@
   gap: 11px;
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 .card {
   background: #fff;
@@ -497,7 +521,15 @@
   padding: 30px;
   border-radius: 8px;
   max-width: 380px;
-  width: 67%;
+  width: 62%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-b {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 380px;
+  width: 62%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 .modal-input {
@@ -509,7 +541,7 @@
   font-size: 15px;
 }
 .modal-select {
-  width: 86%;
+  width: 89%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -535,7 +567,7 @@
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 60px;
+  width: 45px;
   font-size: 11px;
 }
 .page-container { 
@@ -623,7 +655,15 @@
   padding: 30px;
   border-radius: 8px;
   max-width: 380px;
-  width: 67%;
+  width: 59%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-b {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 380px;
+  width: 59%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 .modal-input {
@@ -635,7 +675,7 @@
   font-size: 15px;
 }
 .modal-select {
-  width: 86%;
+  width: 89%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -654,15 +694,15 @@
   display: flex;
   gap: 14px;
   margin-bottom: 18px;
-  margin-left: 35px;
+  margin-left: 15px;
 }
 .budget-form input,
 .budget-form select {
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 60px;
-  font-size: 11px;
+  width: 35px;
+  font-size: 10px;
 }
 .page-container { 
   padding: 24px;
@@ -680,21 +720,21 @@
   gap: 11px;
   grid-template-columns: 1fr;
   margin-top: 15px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .card-grid-b {
   display: grid;
   gap: 11px;
   grid-template-columns: 1fr;
   margin-top: 15px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .card {
   background: #fff;
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  width: 250px;
+  width: 220px;
   margin-bottom: 20px;
 }
 .card-actions {
@@ -710,6 +750,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin-top: 5px;
+  font-size: 9px;
 }
 .add-btn {
   padding: 6px 14px;
@@ -749,7 +790,15 @@
   padding: 30px;
   border-radius: 8px;
   max-width: 380px;
-  width: 67%;
+  width: 57%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-b {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 380px;
+  width: 56%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 .modal-input {
@@ -761,7 +810,7 @@
   font-size: 15px;
 }
 .modal-select {
-  width: 86%;
+  width: 89%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;

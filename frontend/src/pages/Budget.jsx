@@ -122,7 +122,7 @@ const Budget = () => {
 
       {editingBudget && (
         <div className="modal-overlay">
-          <div className="modal">
+          <div className="modal-b">
             <h3>Edit Budget</h3>
             <input
               type="text"
