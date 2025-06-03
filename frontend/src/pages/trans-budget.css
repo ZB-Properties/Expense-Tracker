@@ -181,15 +181,15 @@
   display: grid;
   gap: 14px;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-left: 15px;
 }
 .card-grid-b {
   display: grid;
   gap: 14px;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 15px;
-  margin-left: 55px;
+  margin-top: 25px;
+  margin-left: 85px;
 }
 .card {
   background: #fff;
@@ -436,7 +436,7 @@
   gap: 11px;
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .card {
   background: #fff;
@@ -458,6 +458,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin-top: 5px;
+  font-size: 11px;
 }
 .add-btn {
   padding: 7px 14px;
@@ -583,6 +584,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin-top: 5px;
+  font-size: 10px;
 }
 .add-btn {
   padding: 7px 14px;
@@ -678,14 +680,14 @@
   gap: 11px;
   grid-template-columns: 1fr;
   margin-top: 15px;
-  margin-left: 90px;
+  margin-left: 40px;
 }
 .card-grid-b {
   display: grid;
   gap: 11px;
   grid-template-columns: 1fr;
   margin-top: 15px;
-  margin-left: 90px;
+  margin-left: 40px;
 }
 .card {
   background: #fff;
@@ -710,7 +712,7 @@
   margin-top: 5px;
 }
 .add-btn {
-  padding: 7px 14px;
+  padding: 6px 14px;
   background: rgb(255, 204, 204);
   color: #000;
   border: none;
@@ -718,6 +720,7 @@
   cursor: pointer;
   margin-top: 5px;
   margin-left: 70px;
+  font-size: 10px;
 }
 .modal {
   background: white;
