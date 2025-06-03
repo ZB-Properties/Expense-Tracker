@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from '../utils/axiosInstance';
+import './trans-budget.css'
 
 
 const Budget = () => {
@@ -139,12 +140,12 @@ const Budget = () => {
             <select
               value={editData.period}
               onChange={(e) => setEditData({ ...editData, period: e.target.value })}
-              className="modal-edit"
+              className="modal-edit1"
             >
               <option value="Monthly">Monthly</option>
               <option value="Weekly">Weekly</option>
             </select>
-            
+
             <div className="modal-actions">
               <button className="btn" onClick={handleUpdate}>Save</button>
               <button className="btn" onClick={closeEdit}>Cancel</button>
