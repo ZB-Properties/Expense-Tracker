@@ -29,6 +29,13 @@
   margin-top: 15px;
   margin-left: 100px;
 }
+.card-grid-b {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+  margin-left: 100px;
+}
 .card {
   background: #fff;
   padding: 1rem;
@@ -175,7 +182,14 @@
   gap: 14px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 15px;
-  margin-left: 45px;
+  margin-left: 15px;
+}
+.card-grid-b {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+  margin-left: 55px;
 }
 .card {
   background: #fff;
@@ -287,6 +301,13 @@
   text-decoration: overline;
 }
 .card-grid {
+  display: grid;
+  gap: 13px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+  margin-left: 80px;
+}
+.card-grid-b {
   display: grid;
   gap: 13px;
   grid-template-columns: 1fr 1fr;
@@ -410,6 +431,13 @@
   margin-top: 15px;
   margin-left: 50px;
 }
+.card-grid-b {
+  display: grid;
+  gap: 11px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+  margin-left: 50px;
+}
 .card {
   background: #fff;
   padding: 16px;
@@ -527,6 +555,13 @@
   margin-top: 15px;
   margin-left: 55px;
 }
+.card-grid-b {
+  display: grid;
+  gap: 11px;
+  grid-template-columns: 1fr;
+  margin-top: 15px;
+  margin-left: 55px;
+}
 .card {
   background: #fff;
   padding: 16px;
@@ -612,7 +647,7 @@
 }
 }
 
-@media screen and (min-width: 450px) and (max-width:549px) {
+@media screen and (min-width: 350px) and (max-width:449px) {
 .budget-form {
   display: flex;
   gap: 14px;
@@ -643,7 +678,14 @@
   gap: 11px;
   grid-template-columns: 1fr;
   margin-top: 15px;
-  margin-left: 70px;
+  margin-left: 90px;
+}
+.card-grid-b {
+  display: grid;
+  gap: 11px;
+  grid-template-columns: 1fr;
+  margin-top: 15px;
+  margin-left: 90px;
 }
 .card {
   background: #fff;

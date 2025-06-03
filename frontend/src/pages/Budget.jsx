@@ -36,7 +36,7 @@ const Budget = () => {
       }
     };
     fetchBudgets();
-  }, [navigate]); // added navigate to deps
+  }, [navigate]); 
 
   const handleAddBudget = async (e) => {
     e.preventDefault();
@@ -106,7 +106,7 @@ const Budget = () => {
         <button className="btn" type="submit">Add Budget</button>
       </form>
 
-      <div className="card-grid">
+      <div className="card-grid-b">
         {budgets.map(budget => (
           <div className="card" key={budget.id}>
             <h3>{budget.category}</h3>
