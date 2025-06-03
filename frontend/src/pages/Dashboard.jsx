@@ -11,14 +11,25 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="dashboard-container">
+    <div className='dash-body'>
+
+      <section className="dashboard-container">
+
       <h1>Welcome to your Dashboard</h1>
-      <nav className="pages-nav">
-        <Link to="/transaction">Transactions</Link>
-        <Link to="/budget">Budgets</Link>
-        <Link to="/analytics">Analytics</Link>
-        <button onClick={handleLogout} className="logout-button">Logout</button>
-      </nav>
+      <div className="cgrid">
+        <Link to="/transaction" className='grid-card'>💸 Transactions
+        <span>View and track your income and expenses</span>
+        </Link>
+        <Link to="/budget" className='grid-card'>📊 Budgets
+        <span>Set monthly spending limits</span>
+        </Link>
+        <Link to="/analytics" className='grid-card'>📈 Analytics
+        <span>Visualize your financial data</span>
+        </Link>
+        <button onClick={handleLogout} className="logout-button">🔐 Logout</button>
+      </div>
+
+      </section>
     </div>
   );
 };

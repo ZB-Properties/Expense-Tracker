@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom'; // Add Link here
+import { useNavigate, Link } from 'react-router-dom'; 
 import axios from '../utils/axiosInstance';
+import './users.css'
+
 
 const Register = () => {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
@@ -25,8 +27,8 @@ const Register = () => {
     <div className="user-container">
       <form onSubmit={handleSubmit} className="user-form">
         <h2>Register</h2>
-        <input
-          type="text"
+        <input 
+          type="text" 
           name="name"
           placeholder="Name"
           className="input"

@@ -12,7 +12,8 @@ const app = express();
 app.use(express.json());
 
 
-const allowedOrigins = ['https://expense-tracker-fbro.vercel.app'];
+const allowedOrigins = ['https://expense-tracker-fbro.vercel.app'
+];
 
 app.use(cors({
   origin: function (origin, callback) {
