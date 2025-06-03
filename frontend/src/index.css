@@ -78,6 +78,7 @@ body {
   display: flex;
   gap: 20px;
   margin-bottom: 16px;
+  margin-left: 100px;
 }
 .budget-form input,
 .budget-form select {
@@ -90,7 +91,7 @@ body {
   padding: 30px;
 }
 .page-container h2 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
   font-style:italic;
   text-align: center;
@@ -102,7 +103,7 @@ body {
   gap: 15px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 15px;
-  margin-left: 80px;
+  margin-left: 70px;
 }
 .card {
   background: #fff;
