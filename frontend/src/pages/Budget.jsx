@@ -127,20 +127,24 @@ const Budget = () => {
               type="text"
               value={editData.category}
               onChange={(e) => setEditData({ ...editData, category: e.target.value })}
+              className="modal-edit"
             />
             <input
               type="number"
               value={editData.amount}
               onChange={(e) => setEditData({ ...editData, amount: e.target.value })}
               min="0"
+              className="modal-edit"
             />
             <select
               value={editData.period}
               onChange={(e) => setEditData({ ...editData, period: e.target.value })}
+              className="modal-edit"
             >
               <option value="Monthly">Monthly</option>
               <option value="Weekly">Weekly</option>
             </select>
+            
             <div className="modal-actions">
               <button className="btn" onClick={handleUpdate}>Save</button>
               <button className="btn" onClick={closeEdit}>Cancel</button>
