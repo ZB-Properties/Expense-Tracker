@@ -289,7 +289,7 @@
 .card-grid {
   display: grid;
   gap: 13px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin-top: 15px;
   margin-left: 80px;
 }
@@ -405,7 +405,7 @@
 .card-grid {
   display: grid;
   gap: 11px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin-top: 15px;
   margin-left: 65px;
 }
@@ -521,7 +521,7 @@
 .card-grid {
   display: grid;
   gap: 11px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: 15px;
   margin-left: 55px;
 }
@@ -530,7 +530,8 @@
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  width: 140px;
+  width: 250px;
+  margin-bottom: 20px;
 }
 .card-actions {
   margin-top: 16px;
