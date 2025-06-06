@@ -46,7 +46,7 @@
 }
 .user-btn {
   width: 45%;
-  background-color: #e52c4b;
+  background-color: #00b3b3;
   color: white;
   padding: 10px;
   margin-left: 140px;
@@ -57,12 +57,12 @@
   font-size: 16px;
 }
 .user-btn:hover {
-  background-color: rgb(255, 179, 179);
+  background-color: #c1f0f0;
   color: #000;
 }
 .user-btn1 {
   width: 40%;
-  background-color: #e52c4b;
+  background-color: #00b3b3;
   color: white;
   padding: 10px;
   margin-left: 120px;
@@ -73,7 +73,7 @@
   font-size: 16px;
 }
 .user-btn1:hover {
-  background-color: rgb(255, 179, 179);
+  background-color: #c1f0f0;
   color: #000;
 }
 .user-container p {
@@ -84,12 +84,12 @@
 .user-login {
   text-align: center;
   margin-top: 16px;
-  color: #e52c4b;
+  color: #5cd6d6;
   font-size: 20px;
   text-decoration: none;
 }
 .user-login:hover {
-  color: rgb(255, 128, 128);
+  color: #000;
 }
 
 

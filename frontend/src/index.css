@@ -34,7 +34,7 @@ body {
  .grid-card {
   display: block;
   width: 60%;
-  background: rgb(255, 128, 128);
+  background: #00b3b3;
   margin-top: 25px;
   margin-left: 50px;
   padding: 20px;
@@ -54,11 +54,11 @@ body {
   color: rgb(64, 64, 64);
 }
 .grid-card:hover {
-  background-color: rgb(255, 179, 179);
+  background-color: #d6f5f5;
   color: #fff;
 }
 .logout-button {
-  background-color: #e52c4b;
+  background-color: #00b3b3;
   color: white;
   padding: 12px 22px;
   margin-top: 20px;
@@ -69,7 +69,7 @@ body {
   transition: background-color 0.3s ease;
 }
 .logout-button:hover {
-  background-color: rgb(255, 179, 179);
+  background-color: #c1f0f0;
   color: #000;
 }
 
@@ -91,7 +91,7 @@ body {
 }
  .back-btn {
   padding: 6px 14px;
-  background-color: rgb(255, 128, 128);
+  background-color: #00b3b3;
   color: white;
   margin-top: 10px;
   border: none;
@@ -99,7 +99,7 @@ body {
   cursor: pointer;
 }
 .back-btn:hover {
-  background-color: rgb(255, 204, 204);
+  background-color: #c1f0f0;
   color: #000;
 }
 canvas {
