@@ -143,8 +143,6 @@
 }
 .user-btn {
   width: 40%;
-  background-color: #e52c4b;
-  color: white;
   padding: 8.5px;
   margin-left: 120px;
   margin-top: 20px;
@@ -155,8 +153,6 @@
 }
 .user-btn1 {
   width: 36%;
-  background-color: #e52c4b;
-  color: white;
   padding: 10px;
   margin-left: 120px;
   margin-top: 20px;
@@ -173,7 +169,6 @@
 .user-login {
   text-align: center;
   margin-top: 15px;
-  color: #e52c4b;
   font-size: 18px;
   text-decoration: none;
 }
@@ -229,8 +224,6 @@
 }
 .user-btn {
   width: 30%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 110px;
   margin-top: 20px;
@@ -241,8 +234,6 @@
 }
 .user-btn1 {
   width: 33%;
-  background-color: #e52c4b;
-  color: white;
   padding: 8px;
   margin-left: 110px;
   margin-top: 20px;
@@ -259,7 +250,6 @@
 .user-login {
   text-align: center;
   margin-top: 15px;
-  color: #e52c4b;
   font-size: 16px;
   text-decoration: none;
 }
@@ -315,8 +305,6 @@
 }
 .user-btn {
   width: 25%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 100px;
   margin-top: 20px;
@@ -327,8 +315,6 @@
 }
 .user-btn1 {
   width: 30%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 100px;
   margin-top: 20px;
@@ -345,7 +331,6 @@
 .user-login {
   text-align: center;
   margin-top: 12px;
-  color: #e52c4b;
   font-size: 14.5px;
   text-decoration: none;
 }
@@ -401,8 +386,6 @@
 }
 .user-btn {
   width: 23%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 90px;
   margin-top: 20px;
@@ -413,8 +396,6 @@
 }
 .user-btn1 {
   width: 23%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 90px;
   margin-top: 20px;
@@ -431,7 +412,6 @@
 .user-login {
   text-align: center;
   margin-top: 12px;
-  color: #e52c4b;
   font-size: 13px;
   text-decoration: none;
 }
@@ -487,8 +467,6 @@
 }
 .user-btn {
   width: 22%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 90px;
   margin-top: 20px;
@@ -499,8 +477,6 @@
 }
 .user-btn1 {
   width: 22%;
-  background-color: #e52c4b;
-  color: white;
   padding: 6px;
   margin-left: 90px;
   margin-top: 20px;
@@ -517,7 +493,6 @@
 .user-login {
   text-align: center;
   margin-top: 12px;
-  color: #e52c4b;
   font-size: 13px;
   text-decoration: none;
 }

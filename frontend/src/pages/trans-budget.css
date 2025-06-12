@@ -240,8 +240,6 @@
 }
 .btn {
   padding: 9px 15px;
-  background: rgb(255, 128, 128);
-  color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -249,7 +247,6 @@
 }
 .add-btn {
   padding: 9px 18px;
-  background: rgb(255, 204, 204);
   color: #000;
   border: none;
   border-radius: 4px;
@@ -376,8 +373,6 @@
 }
 .btn {
   padding: 9px 15px;
-  background: rgb(255, 128, 128);
-  color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -385,7 +380,6 @@
 }
 .add-btn {
   padding: 8px 16px;
-  background: rgb(255, 204, 204);
   color: #000;
   border: none;
   border-radius: 4px;
@@ -514,7 +508,6 @@
 }
 .btn {
   padding: 8px 14px;
-  background: rgb(255, 128, 128);
   color: white;
   border: none;
   border-radius: 4px;
@@ -524,7 +517,6 @@
 }
 .add-btn {
   padding: 7px 14px;
-  background: rgb(255, 204, 204);
   color: #000;
   border: none;
   border-radius: 4px;
@@ -654,8 +646,6 @@
 }
 .btn {
   padding: 8px 14px;
-  background: rgb(255, 128, 128);
-  color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -664,7 +654,6 @@
 }
 .add-btn {
   padding: 7px 14px;
-  background: rgb(255, 204, 204);
   color: #000;
   border: none;
   border-radius: 4px;
@@ -811,8 +800,6 @@
 }
 .btn {
   padding: 8px 14px;
-  background: rgb(255, 128, 128);
-  color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -821,7 +808,6 @@
 }
 .add-btn {
   padding: 6px 14px;
-  background: rgb(255, 204, 204);
   color: #000;
   border: none;
   border-radius: 4px;
@@ -970,8 +956,6 @@
 }
 .btn {
   padding: 8px 14px;
-  background: rgb(255, 128, 128);
-  color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -980,7 +964,6 @@
 }
 .add-btn {
   padding: 6px 14px;
-  background: rgb(255, 204, 204);
   color: #000;
   border: none;
   border-radius: 4px;
